@@ -138,3 +138,26 @@ body {
 .lightbox__button:focus {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.lightbox__switch {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #fff;
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.lightbox__switch--left {
+  background-image: url("/src/images/arrow-left.svg");
+  left: 7%;
+}
+
+.lightbox__switch--right {
+  background-image: url("/src/images/arrow-right.svg");
+  right: 7%;
+}
